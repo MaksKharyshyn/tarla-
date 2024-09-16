@@ -7,11 +7,22 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.logo_nav_block {
+    display: flex;
+}
+
+.logo_img {
+ padding: 16px 16px 16px 24px;
 }
 
 .nav_list {
     display: flex;
-    padding: 54px 0px 20.22px;
+    padding-top: 54px;
+    
 }
 
 .nav_item {
@@ -26,6 +37,22 @@
    padding-right: 0px; 
 }
 
+.registration {
+    padding: 21px 24px 0 0;
+}
+
+.reg_list {
+    display: flex;
+}
+
+.reg_item {
+    margin-right: 16px;
+}
+
+.reg_item:last-child {
+    margin-right: 0;
+}
+
 .reg_text {
     font-family: DM Sans;
     font-weight: 400;
@@ -37,6 +64,7 @@
 
 .fresh {
     background-color: #FFC3A0;
+    display: flex;;
 }
 
 .left_side {
@@ -44,6 +72,11 @@
     font-weight: 400;
     font-size: 78px;
     color: #000000;
+    padding: 83px 83px 24px 16px;
+}
+
+.left_title {
+    margin-bottom: 33px;
 }
 
 .left_text {
@@ -58,7 +91,15 @@
     font-weight: 400;
     font-size: 18px;
     align-items: center;
-    color: #000000;  
+    color: #000000; 
+    border-radius: 35px;
+    border: 1px solid #000000; 
+    padding: 12px 73px;
+    background-color: inherit;
+}
+
+.right_img {
+    padding: 24px 16px 24px 48px;
 }
 
 /*works styles */
