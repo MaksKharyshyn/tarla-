@@ -141,10 +141,10 @@
 
 .cards_title {
     font-family: Roboto;
-font-size: 27px;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
     color: #000000;
     text-align: center;
     margin-bottom: 5px;
@@ -215,7 +215,8 @@ text-align: center;
 .pastry_list {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center;     
+    justify-content: center;
+    padding: 71px 16px 73px 16px;   
 }
 .pastry_title {
     font-family: Roboto;
@@ -223,20 +224,31 @@ text-align: center;
     font-size: 39px;
     align-items: center;
     color: #000000; 
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.pastry_item {
+    margin-right: 24px;
+}
+
+.pastry_img {
+    margin-bottom: 12px;
 }
 
 .pastry_sub_title {
     font-family: Roboto;
-    font-weight: 400;
     font-size: 27px;
-    color: #000000; 
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .pastry_text {
     font-family: DM Sans;
     font-weight: 400;
     font-size: 20px;
-    color: #000000; 
+    color: #000000;
+    margin: 7px 0 9px 0; 
 }
 
 .pastry_btn {
@@ -244,27 +256,62 @@ text-align: center;
     font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
-    align-items: center 
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid #000000;
+    padding: 12px 73px;
+    background-color: inherit;
+    margin-bottom: 24px;    
+}
+
+.chilled_img {
+    width: 1520px;
+    height: 1100px;
+    top: 3505.78px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 /* tasty cards styles*/
 
+.tasty_cards_list {
+    display: flex;
+}
+
+.tasty_cards_item {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    margin: 16px 10px 16px 16px;
+}
+
+.tasty_cards_img {
+    margin: 25px 25px 16px 25px;
+}
+
 .tasty_cards_title {
-    font-family:Roboto;
+    font-family: Roboto;
+    font-size: 56px;
     font-weight: 400;
-    font-size: 20px;
-    color: #000000;  
+    line-height: 68.55px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .tasty_cards_text {
     font-family: DM Sans;
+    font-size: 18px;
     font-weight: 400;
-    font-size: 20px;
-    color: #000000; 
+    line-height: 28.01px;
     text-align: center;
+    margin-bottom: 22px;
 }
 
 /* comics styles */
+
+.comics {
+    background-color: inherit;
+}
+
 
 .comics_right_top_title {
     font-family: DM Sans;
@@ -281,11 +328,15 @@ text-align: center;
 }
 
 .comics_right_top_btn {
+    color: #000000
     font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
-    text-align: center;
-    color: #000000;  
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid #000000;
+    padding: 12px 73px;
+    background-color: inherit;
 }
 
 .comics_left_bottom_title {
@@ -303,11 +354,15 @@ text-align: center;
 }
 
 .comics_left_bottom_btn {
+    color: #000000
     font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
-    text-align: center;
-    color: #000000;   
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid #000000;
+    padding: 12px 73px;
+    background-color: inherit;
 }
 
 /*tarlabakes styles*/
@@ -317,7 +372,21 @@ text-align: center;
     font-weight: 400;
     font-size: 43px;
     text-align: center;
-    color: #000000; 
+    color: #000000;
+    padding-top: 65px;
+    padding-bottom: 14px; 
+}
+
+.tarlabakes_img {
+    margin-right: 24px;
+}
+
+.tarlabakes_img:last-child {
+    margin-right: 0;
+}
+
+.tarlabakes_img {
+    padding-bottom: 64px;
 }
 
 /*footer */
@@ -331,7 +400,8 @@ text-align: center;
     font-weight: 400;
     font-size: 50px;
     text-align: center;
-    color: #000000; 
+    color: #000000;
+    padding-bottom: 14px;
 }
 
 .community_text {
@@ -339,24 +409,47 @@ text-align: center;
     font-weight: 400;
     font-size: 31px;
     text-align: center;
-    color: #000000;  
+    color: #000000; 
+    padding-bottom: 24px; 
 }
 
 .community_btn {
+    color: #000000
     font-family: Roboto;
     font-weight: 400;
-    font-size: 17px;
-    text-align: center;
-    color: #000000; 
+    font-size: 22px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 12px 73px;
+    background-color: inherit;
 }
 
+.community_container{
+    text-align: center;
+}  
+
 /* account styles*/
+
+.footer_without_community {
+    display: flex;
+    padding: 63px 16px 65px 16px;
+}
+
+.foot_logo_img {
+    padding-right: 165px;
+}
+
+.account {
+    padding-right: 165px;
+}
 
 .account_link_title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
     color: #000000;
+    margin-bottom: 24px;
 }
 
 .account_link {
@@ -367,6 +460,10 @@ text-align: center;
 }
 
 /*company styles*/
+
+.company {
+    padding-right: 165px;
+}
 
 .company_link_title {
     font-family: Roboto;
@@ -383,6 +480,10 @@ text-align: center;
 }
 
 /*resources styles */
+
+.resources {
+    padding-right: 165px;
+}
 
 .resources_link_title {
     font-family: Roboto;
