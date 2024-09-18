@@ -274,18 +274,16 @@
 
 /* tasty cards styles*/
 
-.tasty_cards {
-    padding: 16px;
-}
-
 .tasty_cards_list {
     display: flex;
+    padding: 16px;
 }
 
 .tasty_cards_item {
     border-radius: 20px;
     border: 1px solid #000000;
     margin-right: 16px;
+    padding: 25px 30px 22px 30px ;
 }
 
 .tasty_cards_item:last-child {
@@ -318,72 +316,79 @@
 /* comics styles */
 
 .comics {
-    background-color: inherit;
-}
-
-
-.comics_right_top_title {
+    padding: 16px 180px;
+  }
+  
+  .comics_top_block {
+    display: flex;
+    margin-bottom: 48px;
+  }
+  
+  .comics_bottom_block {
+    display: flex;
+  }
+  
+  .comics_left_top {
+    margin-right: 48px;
+  }
+  
+  .comics_title {
+    margin: 47px 0 26px 0;
+    text-transform: uppercase;
     font-family: DM Sans;
-    font-weight: 400;
     font-size: 16px;
-    color: #000000; 
-}
-
-.comics_right_top_text {
-    font-family: Roboto;
     font-weight: 400;
-    font-size: 26px;
-    color: #000000; 
-}
-
-.comics_right_top_btn {
-    color: #000000
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 22px;
-    align-items: center;
-    border-radius: 35px;
-    border: 1px solid #000000;
-    padding: 12px 73px;
-    background-color: inherit;
-}
-
-.comics_left_bottom_title {
-    font-family: DM Sans;
-    font-weight: 400;
-    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
     color: #000000;
-}
-
-.comics_left_bottom_text {
+  }
+  
+  .comics_text {
+    margin-bottom: 22px;
     font-family: Roboto;
+    font-size: 26px;
     font-weight: 400;
-    font-size: 30px;
-    color: #000000; 
-}
-
-.comics_left_bottom_btn {
-    color: #000000
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .comisc_btn {
+    padding: 12px 73px;
     font-family: Roboto;
-    font-weight: 400;
     font-size: 22px;
-    align-items: center;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    background-color: inherit;
     border-radius: 35px;
     border: 1px solid #000000;
-    padding: 12px 73px;
-    background-color: inherit;
-}
+  }
+  
+  .comics_left_bottom {
+    margin-right: 48px;
+  }
 
 /*tarlabakes styles*/
+
+.tarlabakes {
+    padding: 65px;
+    
+}
 
 .tarlabakes_title {
     font-family: Roboto;
     font-weight: 400;
     font-size: 43px;
     text-align: center;
-    color: #000000;
-    padding-top: 65px;
-    padding-bottom: 14px; 
+    color: #000000; 
+    margin-bottom: 15px;
+}
+
+.tarlabakes_img_wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .tarlabakes_img {
@@ -410,7 +415,7 @@
     font-size: 50px;
     text-align: center;
     color: #000000;
-    padding-bottom: 14px;
+    margin-bottom: 14px;
 }
 
 .community_text {
@@ -419,11 +424,11 @@
     font-size: 31px;
     text-align: center;
     color: #000000; 
-    padding-bottom: 24px; 
+    margin-bottom: 24px; 
 }
 
 .community_btn {
-    color: #000000
+    color: #000000;
     font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
@@ -436,21 +441,18 @@
 
 .community_container{
     text-align: center;
-}  
-
-/* account styles*/
+} 
 
 .footer_without_community {
     display: flex;
-    padding: 63px 16px 65px 16px;
+    justify-content: space-around;
 }
 
-.foot_logo_img {
-    padding-right: 165px;
-}
+/* account styles*/
 
 .account {
-    padding-right: 165px;
+    display: flex;
+    flex-direction: column;
 }
 
 .account_link_title {
@@ -470,7 +472,8 @@
 /*company styles*/
 
 .company {
-    padding-right: 165px;
+    display: flex;
+    flex-direction: column;
 }
 
 .company_link_title {
@@ -490,7 +493,8 @@
 /*resources styles */
 
 .resources {
-    padding-right: 165px;
+    display: flex;
+    flex-direction: column;  
 }
 
 .resources_link_title {
