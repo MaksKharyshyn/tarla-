@@ -274,6 +274,10 @@
 
 /* tasty cards styles*/
 
+.tasty_cards {
+    padding: 16px;
+}
+
 .tasty_cards_list {
     display: flex;
 }
@@ -281,12 +285,17 @@
 .tasty_cards_item {
     border-radius: 20px;
     border: 1px solid #000000;
-    margin: 16px 10px 16px 16px;
+    margin-right: 16px;
 }
 
-.tasty_cards_img {
-    margin: 25px 25px 16px 25px;
+.tasty_cards_item:last-child {
+    margin-right: 0;
 }
+
+.tasty_cards_img_block {
+    display: flex;
+    justify-content: center;
+  }
 
 .tasty_cards_title {
     font-family: Roboto;
@@ -449,7 +458,6 @@
     font-weight: 400;
     font-size: 22px;
     color: #000000;
-    margin-bottom: 24px;
 }
 
 .account_link {
