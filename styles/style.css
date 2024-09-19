@@ -441,6 +441,7 @@
 
 .community_container{
     text-align: center;
+    padding-bottom: 64px;
 } 
 
 .footer_without_community {
@@ -460,13 +461,15 @@
     font-weight: 400;
     font-size: 22px;
     color: #000000;
+    margin-bottom: 24px;
 }
 
 .account_link {
     font-family: DM Sans;
     font-weight: 400;
     font-size: 16px;
-    color: #000000; 
+    color: #000000;
+    margin-bottom: 4px;
 }
 
 /*company styles*/
@@ -480,14 +483,16 @@
     font-family: Roboto;
     font-weight: 400;
     font-size: 23px;
-    color: #000000;  
+    color: #000000; 
+    margin-bottom: 24px; 
 }
 
 .company_link {
     font-family: DM Sans;
     font-weight: 400;
     font-size: 16px;
-    color: #000000;  
+    color: #000000; 
+    margin-bottom: 4px; 
 }
 
 /*resources styles */
@@ -501,14 +506,16 @@
     font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
-    color: #000000;  
+    color: #000000; 
+    margin-bottom: 24px; 
 }
 
 .resources_link {
     font-family: DM Sans;
     font-weight: 400;
     font-size: 16px;
-    color: #000000;  
+    color: #000000; 
+    margin-bottom: 4px; 
 }
 
 /* social styles*/
@@ -517,7 +524,9 @@
     font-family: Roboto;
     font-weight: 400;
     font-size: 23px;
-    color: #000000; 
+    color: #000000;
+    line-height: 36px;
+    text-align: left;
 }
 
 /*copy styles */
